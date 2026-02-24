@@ -7,11 +7,46 @@
 </head>
 <body>
     <header>
-
+        <h1>Cadastre-se</h1>
+        <hr>
     </header>
-    
+    <section id="cadastro">
+        <form action="">
+            <label for="name">Nome Completo:</label>
+            <input type="text" name="Nome" id="nome" required><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required><br>
+            <label for="idade">Idade:</label>
+            <input type="text" name="name" id="nome"><br>
+            <hr>
+            <label for="interesse">Para qual materia você tem interesse em lecionar:</label>
+            <select name="materias" id="materias">
+                <option value="default"></option>
+                <option value="matematica">Matemática</option>
+                <option value="portugues">Português</option>
+                <option value="biologia">Biologia</option>
+                <option value="ciencias">Ciências</option>
+                <option value="historia">História</option>
+                <option value="geografia">Geografia</option>
+                <option value="artes">Artes</option>
+            </select><br>
+            <hr>
+            <label for="escolaridade">Nível de escolaridade</label>
+            <select name="escolaridade" id="Escolaridade:">
+                <option value="superiorcompleto">Superior Completo</option>
+                <option value="cursandomestrado">Cursando Mestrado</option>
+                <option value="mestradocompleto">Mestrado Completo</option>
+                <option value="cursandodoutorado">Cursando Doutorado</option>
+                <option value="doutoradocompleto">DoutoradoCompleto</option>
+            </select><hr>
+            <label for="descrição">Descrição sobre si mesmo</label><br>
+            <textarea name="descrição" id="descrição" cols="50" rows="5"></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
     <footer>
-        <p><b>&reg;</b>Direitos reservados à JPB-Dev</p>
+        <hr>
+        <p><b>&reg;</b>Direitos reservados à joneitp.dev</p>
     </footer>
 </body>
 </html>
